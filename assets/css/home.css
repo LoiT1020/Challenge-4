@@ -1,0 +1,9 @@
+body{
+    background: url(../img/pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 10hv
+}
+p{
+    padding:8px
+}

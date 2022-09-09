@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url(../img/pic.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 10hv;
+    font-family: sans-serif;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.quiz {
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 50px;
+
+}
+
+.quiz_header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: white;
+    z-index: 1;
+}
+
+
+.quiz_user {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+}
+
+
+.quiz_body {
+    padding: 20px 30px;
+    background-color: lightblue;
+
+}
+
+.option_group {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+
+.option {
+    display: block;
+    width: 300px;
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: 0.4s all;
+}
+
+.option:hover {
+    cursor: pointer;
+    border: 2px solid blue;
+    color: blue
+}
+
+.option.active {
+    color: white;
+    background-color: blue;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-next, #link {
+    border: none;
+    padding: 15px 35px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+    transition: 0.4s all
+}
+
+.btn-next:hover{
+    cursor:pointer;
+    background-color:greenyellow;
+    color:black;
+}
+
+#link:hover{
+    cursor:pointer;
+    background-color:rgb(231, 95, 95);
+    color:black;
+}
+
+.username, .userpoints{
+    color:white;
+    text-align:center;
+    margin-top:15px;
+}
+
+.border{
+    height :500px;
+    width: 500px;
+    display: block;
+    justify-content:center;
+    margin:0px 400px;
+    border-radius:10px;
+    top: 100px;
+    border-color: transparent;   
+}
